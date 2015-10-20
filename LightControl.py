@@ -83,7 +83,7 @@ def light_control(seconds,base_url, appendurl, method, body):
     write_log(content)
                                                     
     if method == 'put':
-    #    requests.put(url, body)
+    	  requests.put(url, body)
         pass
     time.sleep(seconds)
         
